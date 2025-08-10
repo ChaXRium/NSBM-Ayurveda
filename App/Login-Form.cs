@@ -21,5 +21,10 @@ namespace App
         {
             Application.Exit();
         }
+
+        private void Login_Form_Load(object sender, EventArgs e)
+        {
+            panel2.BackColor = Color.FromArgb(100, 0, 0, 0); // Set panel background color to white
+        }
     }
 }
